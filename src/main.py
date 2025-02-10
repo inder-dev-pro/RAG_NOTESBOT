@@ -1,6 +1,6 @@
 import os   
 from langchain_community.document_loaders import PyPDFLoader
-import faiss  # Vector database
+from langchain_community.vectorstores import FAISS
 import numpy as np
 import streamlit as st
 from dotenv import load_dotenv
