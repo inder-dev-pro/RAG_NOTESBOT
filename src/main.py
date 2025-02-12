@@ -2,6 +2,7 @@ import os
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.vectorstores import FAISS
 import numpy as np
+import faiss
 import streamlit as st
 from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer
